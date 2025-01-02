@@ -1,0 +1,17 @@
+python-image
+-->app.py
+import os
+print("this is my first image")
+
+
+
+-->Dockerfile
+FROM python
+WORKDIR /app
+COPY . /app
+CMD ["python3","app.py"]
+
+
+to run
+docker build -t myfirstpythonapp .
+docker run myfirstpythonapp

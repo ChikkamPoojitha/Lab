@@ -1,0 +1,8 @@
+git config --global user.name"ChikkamPoojitha"
+git config --global user.email"22wh1a0516@bvrithydrebad.edu.in"
+cd "pathforanycodeinvscode doin html"
+git init
+git remote add origin githublink 
+git add .
+git commit -m "commit"
+git push -u origin master

@@ -1,0 +1,13 @@
+kubectl get nodes
+kubectl
+
+
+kubectl get ns
+kubectl get po
+kubectl config get-context
+kubectl config use-context docker-desktop
+kubectl apply -f https://raw.githubusercontent.com/oumkale/k8sOperator/main/config/deployments/app.yaml
+kubectl get po
+kubectl port-forward svc/podtato-main 9000:9000
+
+requires java.desktop

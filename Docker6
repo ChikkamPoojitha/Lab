@@ -1,0 +1,12 @@
+docker run nginx
+docker ps
+docker run -d -p 8090:80 docker/welcome-to-docker
+docker ps
+docker container ls
+docker container stop 2id
+docker rm 2id
+docker exec -it 1id ls
+docker logs 2id
+docker inspect 2name
+docker exec -it 2name /bin/sh /docker-entrypoint.sh
+docker container cp 2name:/docker-entrypoint.sh C:create on desktop
